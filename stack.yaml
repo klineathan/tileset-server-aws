@@ -2,7 +2,7 @@ Resources:
   TilesBucket:
     Type: "AWS::S3::Bucket"
     Properties:
-      BucketName: tiles-bucket-yim1fcj
+      BucketName: tiles-bucket-<random-string>
       CorsConfiguration:
         CorsRules:
         - AllowedOrigins:
